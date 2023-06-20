@@ -1,0 +1,17 @@
+PAD
+UNK
+O
+B-Subject
+I-Subject
+B-Module
+I-Module
+B-Content
+I-Content
+B-Detail
+I-Detail
+B-Constitution
+I-Constitution
+B-Relationship
+I-Relationship
+B-Evaluation
+I-Evaluation

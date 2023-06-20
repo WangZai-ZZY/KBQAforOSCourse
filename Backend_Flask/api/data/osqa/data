@@ -1,0 +1,539 @@
+什么是操作系统
+Definition
+O O O B-Subject I-Subject I-Subject I-Subject
+
+操作系统的定义是什么
+Definition
+B-Subject I-Subject I-Subject I-Subject O O O O O O
+
+操作系统有哪些分类
+Classification
+B-Subject I-Subject I-Subject I-Subject O O O O O
+
+操作系统由哪几部分构成
+Constitution
+B-Subject I-Subject I-Subject I-Subject O O O O O O O
+
+批处理操作系统是什么
+Definition
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O O O
+
+批处理操作系统的优点是什么
+Evaluation
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O B-Evaluation I-Evaluation O O O
+
+批处理操作系统的缺点有哪些
+Evaluation
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O B-Evaluation I-Evaluation O O O
+
+单道批处理系统具有哪些特征
+Feature
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O O O O O O
+
+多道批处理系统的优点有哪些
+Evaluation
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O B-Evaluation I-Evaluation O O O
+
+分时操作系统是什么
+Definition
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O O O
+
+请介绍一下分时操作系统
+Definition
+O O O O O B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail
+
+分时操作系统具有什么样的特点
+Feature
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O O O O O O O O
+
+分时操作系统与多道批处理系统之间的关系是什么
+Relationship
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O O O O O O O O
+
+核心态是什么
+Definition
+B-Detail I-Detail I-Detail O O O
+
+核心态在什么时候转换为用户态
+Method
+B-Detail I-Detail I-Detail O O O O O O O O B-Detail I-Detail I-Detail
+
+如何实现核心态到用户态的转换
+Method
+O O O O B-Detail I-Detail I-Detail O B-Detail I-Detail I-Detail O O O
+
+用户态是什么
+Definition
+B-Detail I-Detail I-Detail O O O
+
+用户态在什么时候转换为核心态
+Method
+B-Detail I-Detail I-Detail O O O O O O O O B-Detail I-Detail I-Detail
+
+如何实现用户态到核心态的转换
+Method
+O O O O B-Detail I-Detail I-Detail O B-Detail I-Detail I-Detail O O O
+
+操作系统的主要功能有哪些
+Function
+B-Subject I-Subject I-Subject I-Subject O O O O O O O O
+
+操作系统的主要特征有哪些
+Feature
+B-Subject I-Subject I-Subject I-Subject O O O O O O O O
+
+操作系统有哪些特征
+Feature
+B-Subject I-Subject I-Subject I-Subject O O O O O
+
+进程是什么
+Definition
+B-Module I-Module O O O
+
+进程的定义是什么
+Definition
+B-Module I-Module O O O O O O
+
+操作系统引入进程的原因
+Effect
+O O O O O O B-Module I-Module O O O
+
+进程由什么组成
+Constitution
+B-Module I-Module O O O O O
+
+进程由哪几部分构成
+Constitution
+B-Module I-Module O O O O O O O
+
+进程具有哪些特征
+Feature
+B-Module I-Module O O O O O O
+
+进程与程序有哪些区别
+Relationship
+B-Module I-Module O B-Module I-Module O O O B-Relationship I-Relationship
+
+进程的三种基本状态是什么
+Constitution
+B-Module I-Module O O O B-Constitution I-Constitution I-Constitution I-Constitution O O O
+
+进程的就绪状态是什么
+Definition
+B-Module I-Module O B-Detail I-Detail I-Detail I-Detail O O O
+
+如何判断进程是否处于就绪状态
+Method
+O O O O B-Module I-Module O O O O B-Detail I-Detail I-Detail I-Detail
+
+进程的执行状态是什么
+Definition
+B-Module I-Module O B-Detail I-Detail I-Detail I-Detail O O O
+
+如何判断进程是否处于执行状态
+Method
+O O O O B-Module I-Module O O O O B-Detail I-Detail I-Detail I-Detail
+
+进程的阻塞状态是什么
+Definition
+B-Module I-Module O B-Detail I-Detail I-Detail I-Detail O O O
+
+如何判断进程是否处于阻塞状态
+Method
+O O O O B-Module I-Module O O O O B-Detail I-Detail I-Detail I-Detail
+
+在什么条件下执行状态会转为就绪状态
+Method
+O O O O O O B-Detail I-Detail I-Detail I-Detail O O O B-Detail I-Detail I-Detail I-Detail
+
+进程如何从执行状态转为就绪状态
+Method
+B-Module I-Module O O O B-Detail I-Detail I-Detail I-Detail O O B-Detail I-Detail I-Detail I-Detail
+
+执行状态是怎么转为就绪状态的
+Method
+B-Detail I-Detail I-Detail I-Detail O O O O O B-Detail I-Detail I-Detail I-Detail O
+
+进程如何从阻塞状态转为就绪状态
+Method
+B-Module I-Module O O O B-Detail I-Detail I-Detail I-Detail O O B-Detail I-Detail I-Detail I-Detail
+
+阻塞状态是怎么转为就绪状态的
+Method
+B-Detail I-Detail I-Detail I-Detail O O O O O B-Detail I-Detail I-Detail I-Detail O
+
+进程的创建状态是什么
+Definition
+B-Module I-Module O B-Detail I-Detail I-Detail I-Detail O O O
+
+进程的终止状态是什么
+Definition
+B-Module I-Module O B-Detail I-Detail I-Detail I-Detail O O O
+
+创建状态的进程如何进入就绪状态
+Method
+B-Detail I-Detail I-Detail I-Detail O B-Module I-Module O O O O B-Detail I-Detail I-Detail I-Detail
+
+引起进程挂起的原因是什么
+Background
+O O B-Detail I-Detail I-Detail I-Detail O O O O O O
+
+进程控制块具有哪些作用
+Effect
+B-Detail I-Detail I-Detail I-Detail I-Detail O O O O O O
+
+进程控制块的作用是什么
+Effect
+B-Detail I-Detail I-Detail I-Detail I-Detail O O O O O O
+
+进程控制块包含哪些信息
+Constitution
+B-Detail I-Detail I-Detail I-Detail I-Detail O O O O O O
+
+进程控制块是如何构成的
+Constitution
+B-Detail I-Detail I-Detail I-Detail I-Detail O O O O O O
+
+进程控制块是由哪些部分构成的
+Constitution
+B-Detail I-Detail I-Detail I-Detail I-Detail O O O O O O O O O
+
+原语是什么
+Definition
+B-Detail I-Detail O O O
+
+进程控制的原语包括哪些
+Classification
+B-Detail I-Detail I-Detail I-Detail O B-Detail I-Detail O O O O
+
+有哪些原语可以控制进程
+Classification
+O O O B-Detail I-Detail O O B-Detail I-Detail I-Detail I-Detail
+
+引起进程创建的事件有哪些
+Background
+O O B-Detail I-Detail I-Detail I-Detail O O O O O O
+
+哪些事件可以导致进程创建
+Background
+O O O O O O O O B-Detail I-Detail I-Detail I-Detail
+
+引起进程阻塞的事件有哪些
+Background
+O O B-Detail I-Detail I-Detail I-Detail O O O O O O
+
+哪些事件会导致进程阻塞
+Background
+O O O O O O O B-Detail I-Detail I-Detail I-Detail
+
+进程控制包括哪些内容
+Constitution
+B-Content I-Content I-Content I-Content O O O O O O
+
+线程的定义是什么
+Definition
+B-Module I-Module O O O O O O
+
+什么是线程
+Definition
+O O O B-Module I-Module
+
+引入线程的目的是什么
+Effect
+O O B-Module I-Module O O O O O O
+
+线程具有哪些属性
+Feature
+B-Module I-Module O O O O O O
+
+进程与线程的关系是什么
+Relationship
+B-Module I-Module O B-Module I-Module O O O O O O
+
+进程同步的定义是什么
+Definition
+B-Content I-Content I-Content I-Content O O O O O O
+
+进程同步是什么
+Definition
+B-Content I-Content I-Content I-Content O O O
+
+进程互斥的定义是什么
+Definition
+B-Content I-Content I-Content I-Content O O O O O O
+
+进程互斥是什么
+Definition
+B-Content I-Content I-Content I-Content O O O
+
+临界区是什么
+Definition
+B-Detail I-Detail I-Detail O O O
+
+临界资源是什么
+Definition
+B-Detail I-Detail I-Detail I-Detail O O O
+
+信号量有哪两种
+Classification
+B-Detail I-Detail I-Detail O O O O
+
+引入信号量机制的目的是什么
+Effect
+O O B-Detail I-Detail I-Detail O O O O O O O O
+
+信号量的基本思想是什么
+Feature
+B-Detail I-Detail I-Detail O O O O O O O O
+
+进程同步有哪些典型问题
+Constitution
+B-Content I-Content I-Content I-Content O O O O O O O
+
+请介绍一下生产者消费者问题
+Definition
+O O O O O B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail
+
+请介绍一下哲学家就餐问题
+Definition
+O O O O O B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail
+
+请介绍一下读者写者问题
+Definition
+O O O O O B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail
+
+引入管程的目的是什么
+Effect
+O O B-Content I-Content O O O O O O
+
+进程通讯包含哪两类
+Classification
+B-Content I-Content I-Content I-Content O O O O O
+
+高级通讯分为哪三类
+Classification
+B-Detail I-Detail I-Detail I-Detail O O O O O
+
+三级调度体系具体指什么
+Definition
+B-Module I-Module I-Module I-Module I-Module I-Module O O O O O
+
+高级调度是什么
+Definition
+B-Detail I-Detail I-Detail I-Detail O O O
+
+高级调度的定义是什么
+Definition
+B-Detail I-Detail I-Detail I-Detail O O O O O O
+
+请介绍一下高级调度
+Definition
+O O O O O B-Detail I-Detail I-Detail I-Detail
+
+中级调度是什么
+Definition
+B-Detail I-Detail I-Detail I-Detail O O O
+
+中级调度的定义是什么
+Definition
+B-Detail I-Detail I-Detail I-Detail O O O O O O
+
+请简单介绍一下中级调度
+Definition
+O O O O O O O B-Detail I-Detail I-Detail I-Detail
+
+引入中级调度的目的是什么
+Effect
+O O B-Detail I-Detail I-Detail I-Detail O O O O O O
+
+中级调度主要解决了什么问题
+Effect
+B-Detail I-Detail I-Detail I-Detail O O O O O O O O O
+
+初级调度是什么
+Definition
+B-Detail I-Detail I-Detail I-Detail O O O
+
+初级调度的定义是什么
+Definition
+B-Detail I-Detail I-Detail I-Detail O O O O O O
+
+请简要介绍一下初级调度
+Definition
+O O O O O O O B-Detail I-Detail I-Detail I-Detail
+
+执行初级调度的原因是什么
+Background
+O O B-Detail I-Detail I-Detail I-Detail O O O O O O
+
+引入初级调度的目的是什么
+Effect
+O O B-Detail I-Detail I-Detail I-Detail O O O O O O
+
+在什么情况下调度队列会被激活
+Background
+O O O O O O B-Detail I-Detail I-Detail I-Detail O O O O
+
+进程调度的功能是什么
+Function
+B-Content I-Content I-Content I-Content O O O O O O
+
+三级调度之间的关系是什么样的
+Relationship
+B-Module I-Module I-Module I-Module O O O O O O O O O O
+
+进程调度的目标是什么
+Effect
+B-Content I-Content I-Content I-Content O O O O O O
+
+如何评价调度算法
+Evaluation
+O O O O B-Detail I-Detail I-Detail I-Detail
+
+评价调度算法有几种标准
+Evaluation
+O O B-Detail I-Detail I-Detail I-Detail O O O O O
+
+典型的进程调度算法有哪些
+Classification
+O O O B-Content I-Content I-Content I-Content I-Content I-Content O O O
+
+先来先服务调度算法的优缺点有哪些
+Evaluation
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O B-Evaluation I-Evaluation I-Evaluation O O O
+
+先来先服务调度算法有哪些优点
+Evaluation
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O O O B-Evaluation I-Evaluation
+
+先来先服务调度算法有什么缺点
+Evaluation
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O O O B-Evaluation I-Evaluation
+
+请介绍一下短作业优先调度算法的优缺点
+Evaluation
+O O O O O B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O B-Evaluation I-Evaluation I-Evaluation
+
+短作业优先调度算法的优点是什么
+Evaluation
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O B-Evaluation I-Evaluation O O O
+
+短作业优先调度算法的缺点有哪些
+Evaluation
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O B-Evaluation I-Evaluation O O O
+
+时间片轮转调度算法的实现原理是什么
+Constitution
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O O O O O O O O
+
+多级反馈队列调度算法有什么特征
+Feature
+B-Content I-Content I-Content I-Content I-Content I-Content O O O O O O O O O
+
+有哪些实现实时调度的算法
+Method
+O O O O O B-Content I-Content I-Content I-Content O O O
+
+死锁产生的原因是什么
+Background
+B-Module I-Module O O O O O O O O
+
+可剥夺资源是指什么
+Definition
+B-Detail I-Detail I-Detail I-Detail I-Detail O O O O
+
+什么是不可剥夺资源
+Definition
+O O O B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail
+
+产生死锁的必要条件是什么
+Definition
+O O B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O O O
+
+解决死锁有哪些方法
+Method
+O O B-Module I-Module O O O O O
+
+如何解决死锁问题
+Method
+O O O O B-Module I-Module O O
+
+如何实现死锁的静态预防
+Method
+O O O O B-Module I-Module O B-Content I-Content I-Content I-Content
+
+什么是系统安全状态
+Definition
+O O O B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail
+
+简要介绍一下死锁的动态避免算法
+Definition
+O O O O O O B-Module I-Module O B-Content I-Content I-Content I-Content O O
+
+如何检测系统是否死锁
+Method
+O O B-Content I-Content O O O O B-Module I-Module
+
+解除死锁应使用什么方法
+Method
+B-Content I-Content I-Content I-Content O O O O O O O
+
+内存管理包含哪几项功能
+Function
+B-Module I-Module I-Module I-Module O O O O O O O
+
+内存管理要实现的主要目标是什么
+Effect
+B-Module I-Module I-Module I-Module O O O O O O O O O O O
+
+程序装入有哪几种方式
+Method
+B-Content I-Content I-Content I-Content O O O O O O
+
+固定分区分配的思想是什么
+Definition
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O O O O O O
+
+可变分区分配的算法有哪些
+Method
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O O O O O O
+
+连续分配方式有哪些
+Method
+B-Content I-Content I-Content I-Content I-Content I-Content O O O
+
+内存管理方式主要有哪几种
+Method
+B-Module I-Module I-Module I-Module O O O O O O O O
+
+基本分页存储管理方法是如何实现的
+Definition
+B-Content I-Content I-Content I-Content O O O O O O O O O O O O
+
+请介绍一下基本分段管理中的地址变换机构是什么样的
+Definition
+O O O O O B-Content I-Content I-Content I-Content O O O O B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O O O O O
+
+请简单介绍一下虚拟存储管理中的覆盖技术
+Definition
+O O O O O O O B-Module I-Module I-Module I-Module I-Module I-Module O O B-Detail I-Detail I-Detail I-Detail
+
+虚拟存储管理方式主要有哪些
+Method
+B-Module I-Module I-Module I-Module I-Module I-Module O O O O O O O
+
+请重点介绍一下请求分页存储管理中的页面置换算法
+Definition
+O O O O O O O B-Content I-Content I-Content I-Content O O O O O O B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail
+
+请简述一下I/O设备控制的四种方法
+Method
+O O O O O B-Content I-Content I-Content I-Content I-Content I-Content I-Content O O O O O
+
+磁盘调度算法有哪些
+Method
+B-Detail I-Detail I-Detail I-Detail I-Detail I-Detail O O O
+
+文件的物理结构是什么样的
+Feature
+B-Module I-Module O B-Detail I-Detail I-Detail I-Detail O O O O O
